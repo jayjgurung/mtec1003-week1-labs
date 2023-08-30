@@ -15,10 +15,24 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
-
+Applications
+Creative Cloud Files
+Creative Cloud Files jayjgurung@gmail.com a7e162e12f2b60b669b89cbeed6c4611996ab546dc84663e9d0e17f8068f725e
+Desktop
+Documents
+Downloads
+IdeaProjects
+Library
+Movies
+Music
+Pictures
+Public
+RiderProjects
+Splice
+dotTraceSnapshots
+jxxded@gmail.com - Google Drive
+kukdbeats@gmail.com - Google Drive
+tmp
 
 ==========
 2.  Type:
