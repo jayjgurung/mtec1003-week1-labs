@@ -15,6 +15,8 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+
+
 Applications
 Creative Cloud Files
 Creative Cloud Files jayjgurung@gmail.com a7e162e12f2b60b669b89cbeed6c4611996ab546dc84663e9d0e17f8068f725e
@@ -34,6 +36,7 @@ jxxded@gmail.com - Google Drive
 kukdbeats@gmail.com - Google Drive
 tmp
 
+
 ==========
 2.  Type:
 
@@ -43,6 +46,8 @@ Copy and paste the first *two lines* of output below.
 ----------
 
 
+drwxr-xr-x@  9 jayjgurung  staff     288 Dec  3  2022 3d Objects
+drwxr-xr-x@ 18 jayjgurung  staff     576 May 23 20:21 AI EXPORTS
 
 
 
@@ -55,7 +60,8 @@ Copy and paste the first *two lines* of output below.
 ----------
 
 
-
+.					Image-Line
+..					Native Instruments
 
 
 
@@ -68,14 +74,14 @@ Copy and paste the output below.
 ----------
 
 
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
 
-
+up arrow key
 
 
 
@@ -83,13 +89,15 @@ Copy and paste the output below.
 6.  Name two flags/options that we used in this exercise.
 ----------
 
+-a (listed all the hidden files and folders)
+-l (detailed view of the metadata )
 
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 
 
@@ -98,7 +106,7 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Documents
 
 
 
