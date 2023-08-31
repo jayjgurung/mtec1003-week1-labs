@@ -164,14 +164,16 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
+mkdir mtec1003
 
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-
+cd mtec1003
+or
+pushd mtech1003
 
 
 
@@ -188,7 +190,7 @@ Copy and paste the output of pwd below.
 ----------
 
 
-
+/Users/jayjgurung/Desktop/mtec1003
 
 
 ==========
@@ -200,7 +202,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 
 
@@ -214,7 +216,7 @@ Copy and paste the output below.
 ----------
 
 
-
+animals	food
 
 
 ==========
@@ -241,7 +243,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/jayjgurung/Desktop/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -254,7 +256,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/jayjgurung/Desktop/mtec1003/foo/bar
 
 
 ==========
@@ -267,7 +269,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/jayjgurung/Desktop/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -279,7 +281,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/jayjgurung/Desktop/mtec1003
 
 
 
@@ -293,8 +295,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
-
+total 0
+drwxr-xr-x  3 jayjgurung  staff  96 Aug 30 22:09 foo
+drwxr-xr-x  2 jayjgurung  staff  64 Aug 30 22:07 food
 
 
 ==========
@@ -306,8 +309,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
+/Users/jayjgurung
 
 
 ==========
@@ -319,7 +321,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 
 
@@ -332,7 +334,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 
 
@@ -345,7 +347,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 
 
@@ -357,7 +359,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+Jays-MacBook-Pro.local
 
 
 
@@ -365,7 +367,7 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+cd ~/Desktop/mtec1003
 
 
 ==========
@@ -394,7 +396,7 @@ Write the one command you used below:
 ----------
 
 
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 ==========
@@ -403,7 +405,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 
 
@@ -413,9 +415,14 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
+total 0
+drwxr-xr-x  2 jayjgurung  staff  64 Aug 30 22:25 aardvark
+drwxr-xr-x  3 jayjgurung  staff  96 Aug 30 22:09 foo
+drwxr-xr-x  2 jayjgurung  staff  64 Aug 30 22:07 food
+drwxr-xr-x  3 jayjgurung  staff  96 Aug 30 22:25 lemon
 
 
-
+modified date for aardcark is Aug 30 22:25 aardvark
 
 ==========
 33. Make 3 directories nested within each other:
@@ -428,7 +435,7 @@ What command did you use?
 ----------
 
 
-
+ mkdir -p foo/bar/baz
 
 
 ==========
@@ -437,8 +444,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
+cd foo/bar/baz
 
 
 ==========
@@ -447,7 +453,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd ../..
 
 
 
@@ -456,7 +462,7 @@ What command did you use?
 ----------
 
 
-
+rmdir "directory_name"
 
 
 ==========
@@ -464,15 +470,18 @@ What command did you use?
 ----------
 
 
-
+pwd
 
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
+a
 
+command should be :
 
+ls -a
 
 
 ==========
@@ -480,7 +489,9 @@ What command did you use?
 ----------
 
 
-
+~
+or 
+cd ~
 
 
 ==========
@@ -488,18 +499,17 @@ What command did you use?
 ----------
 
 
-
+pathname is name of the directory that specifies location in the system.
 
 
 ==========
 41. What is a directory?
 ----------
 
-
-
+It is cataloging structure on a file system.
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
-
+/Users/jayjgurung/Downloads
