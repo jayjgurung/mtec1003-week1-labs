@@ -15,46 +15,48 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+cd /
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd ~
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
 
-
+/Users/jayjgurung/Desktop
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
 
-
+mkdir -p Desktop/stuff
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
-
+cd ../..
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
 
-
+cd -
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
 
+ls -al Desktop
 
+ls -alt Desktop (for last modified time, on top of hidden and long info)
 
 ==========
 Part 2 - Output, Download and Uncompress
@@ -75,7 +77,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 
 ==========
@@ -86,7 +88,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -96,7 +98,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+quote> 
 
 ==========
 4. Uh-oh... we're stuck!
@@ -104,7 +106,7 @@ Copy and paste the output below.
 Type [CTRL + C] to get your prompt back.
 ----------
 
-
+jayjgurung@Jays-MacBook-Pro ~ % 
 
 ==========
 5. Say good mornin' again with quotes!
@@ -114,7 +116,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -125,6 +127,7 @@ $ echo *
 What happens?
 ----------
 
+Applications Creative Cloud Files Creative Cloud Files jayjgurung@gmail.com a7e162e12f2b60b669b89cbeed6c4611996ab546dc84663e9d0e17f8068f725e Desktop Documents Downloads IdeaProjects Library Movies Music Pictures Public RiderProjects Splice dotTraceSnapshots jxxded@gmail.com - Google Drive kukdbeats@gmail.com - Google Drive tmp
 
 
 
@@ -134,6 +137,7 @@ What happens?
 Write the command that you used below:
 ----------
 
+clear
 
 
 ==========
@@ -149,9 +153,9 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
-
-
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:-- 100 18580    0 18580    0     0   208k      0 --:--:-- --:--:-- --:--:--  224k
 
 
 
@@ -160,10 +164,11 @@ Now copy and paste the output below.
 
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
+commad:
+pwd
 
-
-
-
+output:
+/Users/jayjgurung
 
 ==========
 10. If you're not in your home directory, change to it (use the shortcut).
@@ -172,7 +177,7 @@ Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ===========
 
